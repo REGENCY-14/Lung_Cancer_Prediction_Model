@@ -7,7 +7,7 @@ with open('best_rfmodel', 'rb') as file:
     best_model = pickle.load(file)
 
 st.title("Lung Cancer Prediction using Random Forest Model")
-st.write("Enter the details below to predict the health outcome:")
+st.write("Enter the details below to predict the outcome based on the input fields:")
 
 # Define user input fields
 YELLOW_FINGERS = st.selectbox("Yellow Fingers (0: No, 1: Yes)", [0, 1], index=1)
