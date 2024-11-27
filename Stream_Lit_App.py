@@ -6,7 +6,7 @@ import pandas as pd
 with open('best_rfmodel', 'rb') as file:
     best_model = pickle.load(file)
 
-st.title("Health Prediction using Random Forest Model")
+st.title("Lung Cancer Prediction using Random Forest Model")
 st.write("Enter the details below to predict the health outcome:")
 
 # Define user input fields
